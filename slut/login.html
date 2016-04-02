@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	    <meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta charset = "utf-8">
+			<!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+        <script type="text/javascript" src="main.js"></script>
+    <style>
+	  body {
+	  	background-color: #35354f;
+	  	background-image: url(bg.png);
+	  	background-position: center;
+        background-repeat: repeat-x;
+	  	background-size: cover;
+	  }
+	  header {
+	  	text-align: center;
+	  	margin: 0px auto;
+	  	margin-top: 130px;
+	  }
+	  aside {
+	  	margin: 0px auto;
+	  	margin-top: 130px;
+        color: white;
+        font-size: 15px;
+	  }
+	  #input-name {
+	  	border-radius: 50px;
+	  	background-color: #242840;
+	  	text-align: center;
+	  	height: 50px;
+	  	border: 1px solid #41455a;
+	  	color: white;
+	  	margin-top: 5px;
+	  }
+	  #input-name:focus {
+
+	  }
+	  #logo {
+	  	margin: 0px auto;
+	  }
+      #rem {
+      	height: 20px;
+      	width: 20px;
+      }
+      #rem-text {
+      	padding-top: 3px;
+      	padding-left: 4px;
+      }
+      #sumbit {
+      	margin-top: 20px;
+      }
+      #log {
+        margin: 0px auto;
+        text-align: center;
+      }
+      #submit {
+      	height: 50px;
+      	border-radius: 50px;
+      	background-color: #3289bc;
+      	color: white;
+      	font-size: 20px;
+      	text-align: center;
+      	border: none;
+      }
+      #ca {
+      	padding-top: 73px;
+      	font-size: 15px;
+      	height: 100px;
+      	font-style: bold;
+      }
+	</style>
+</head>
+<body>
+     <header>
+        <div class="container">
+     	    <img src="logo.png" class="img img-responsive" width="220" height="220" id="logo">
+     	</div>
+     </header>
+     <aside>
+        <div class="container text-center">
+     	   <input type="text" placeholder="Enter username" class="col-xs-12" id="input-name" required><p></p>
+     	   <input type="password" placeholder="Enter password" class="col-xs-12" id="input-name" required><p></p>
+     	   <input type="checkbox" id="rem" class="col-xs-1"><p class="pull-left" id="rem-text">Remember me</p><p id="rem-text" class="pull-right">Forget your password?</p>
+     	</div>
+     </aside>
+     <div id="sumbit" class="container">
+     	<button type="submit" class="col-xs-12" id="submit">Login</button>
+     </div>
+     <div id="ca" class="container-fluid text-center">
+     	       <a href="#" class="text-center">Have not account yet? Create Account</a>
+     </div>
+</body>
+</html>
